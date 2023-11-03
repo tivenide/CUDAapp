@@ -34,7 +34,7 @@ sudo systemctl restart docker.service
 ## Usage
 Building container
 ```
-sudo docker build -t cudaapp:latest
+sudo docker build -t cudaapp:latest .
 ```
 Running container
 ```

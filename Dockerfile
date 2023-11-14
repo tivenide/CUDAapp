@@ -12,4 +12,5 @@ RUN pip install -r requirements.txt --extra-index-url https://download.pytorch.o
 
 COPY . ./
 
-ENTRYPOINT ["python3", "main.py"]
+CMD ["python3", "main.py"]
+#ENTRYPOINT ["python3", "main.py"]
